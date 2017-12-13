@@ -7,5 +7,8 @@ class App < Sinatra::Base
   end
 
   # Add your post route and action below
-
+  post '/food' do
+    param.to_s
+  end
+ 
 end
